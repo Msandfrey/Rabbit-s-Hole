@@ -824,7 +824,23 @@ can_jump=1;
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="90">
+    <event eventtype="5" enumb="81">
+      <action>
+        <libid>1</libid>
+        <id>331</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_restart_game</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="5" enumb="65">
       <action>
         <libid>1</libid>
         <id>612</id>
@@ -1036,22 +1052,6 @@ can_jump=1;
         <useapplyto>0</useapplyto>
         <exetype>0</exetype>
         <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="5" enumb="81">
-      <action>
-        <libid>1</libid>
-        <id>331</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_restart_game</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -1538,7 +1538,7 @@ can_jump=1;
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="90">
+    <event eventtype="10" enumb="65">
       <action>
         <libid>1</libid>
         <id>612</id>

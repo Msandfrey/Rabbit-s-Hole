@@ -550,7 +550,7 @@ if (face_right == 1) image_xscale = 1;
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="88">
+    <event eventtype="10" enumb="83">
       <action>
         <libid>1</libid>
         <id>603</id>
