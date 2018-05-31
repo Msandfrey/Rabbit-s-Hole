@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (obj_testPlayer.face_right == 1)
+            <string>if (obj_Player.face_right == 1)
 {
     hspeed = 10;
     image_xscale = 1;

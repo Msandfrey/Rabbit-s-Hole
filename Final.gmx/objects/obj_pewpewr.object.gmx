@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_testPlayer.x</string>
+            <string>obj_Player.x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_testPlayer.y</string>
+            <string>obj_Player.y</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -38,7 +38,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_testPlayer">
+    <event eventtype="4" ename="obj_Player">
       <action>
         <libid>1</libid>
         <id>711</id>

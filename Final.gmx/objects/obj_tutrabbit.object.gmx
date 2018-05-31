@@ -302,7 +302,7 @@ if (room = room4) {
 
 //Tutorial change
 if (room == tutorial1){
-    if (x &gt; 500) room_goto_next();
+    if (x &gt; 700) room_goto_next();
 }
 if (room == tutorial2){
     if (x &gt; 500) room_goto_next();
