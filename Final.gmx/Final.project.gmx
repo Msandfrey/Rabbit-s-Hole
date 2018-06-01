@@ -29,7 +29,7 @@
       <sprite>sprites\spr_floorstart</sprite>
       <sprite>sprites\spr_floor</sprite>
       <sprite>sprites\spr_floorend</sprite>
-      <sprite>sprites\spr_diamondlk</sprite>
+      <sprite>sprites\spr_diamondblk</sprite>
       <sprite>sprites\spr_heartblk</sprite>
       <sprite>sprites\spr_dirt</sprite>
       <sprite>sprites\spr_trees</sprite>
@@ -109,9 +109,10 @@
       <object>objects\obj_pewpewr</object>
     </objects>
     <objects name="rabbit">
-      <object>objects\obj_player</object>
+      <object>objects\obj_endPlayer</object>
       <object>objects\obj_tutrabbit</object>
-      <object>objects\obj_testPlayer</object>
+      <object>objects\obj_Player</object>
+      <object>objects\obj_PlayerReverse</object>
       <object>objects\testrabbit2</object>
       <object>objects\obj_playereat</object>
       <object>objects\obj_bullet</object>
