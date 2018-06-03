@@ -548,7 +548,7 @@ if (place_meeting(x,y, obj_dmnd)){
     room_restart();
 }
 
-//EC - walking/standing
+//EnvCol - walking/standing
 if (place_meeting(x+1,y, obj_dmnd)){
     room_restart();
 }
@@ -582,19 +582,19 @@ if (can_jump == 1){
         can_jump=0;
     }
 }
-if (vspeed != 0){
+if (vspeed != 0 or !place_free(x,y-1)){
     sprite_index = spr_walk; image_index = 02;
 }
 else if ((keyboard_check(vk_left) == 1 or keyboard_check(vk_right) == 1)and caneat != 1){
     sprite_index = spr_walk; image_speed = .5;
 }
 //idle
-else if(caneat != 1 and can_poop != 1){ 
+else if(caneat != 1 and can_poop != 1 and can_jump == 1){ 
     sprite_index = spr_player; 
     image_index = 0; 
     can_shoot = 1;
     can_poop = 1;
-}else if(keyboard_check(vk_nokey)){ 
+}else if(keyboard_check(vk_nokey) and can_jump == 1){ 
     sprite_index = spr_player; 
     image_index = 0; 
     can_shoot = 1;
@@ -1062,6 +1062,7 @@ else if (place_meeting(x,y,obj_skullgreen)){
     alarm[3] = 8;
 }
 */
+can_poop = 0;
 </string>
           </argument>
         </arguments>
