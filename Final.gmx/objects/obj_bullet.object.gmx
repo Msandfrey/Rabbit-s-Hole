@@ -120,7 +120,10 @@ if (hitg != noone){
     instance_destroy();
 }
 else if (hity != noone){
-    hity.hp -= 1;
+    if((obj_enemyY.faceRightY == 1) or (hspeed &lt; 0 and obj_enemyY.sprite_index == 0)){
+        hity.hp -= 1;
+    }
+    instance_create(x,y,obj_lilexplosion);
     instance_destroy();
 }
 
